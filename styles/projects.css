@@ -1,0 +1,76 @@
+/* Fonts first */
+.project-preview {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    flex-direction: row;
+    align-items: center;
+    /* GEOMTRY */
+    max-width: 100%;
+    height: fit-content;
+    padding: 20px 30px;
+    margin-top: 30px;
+    background: url(../images/background/bg-project-preview.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+
+.message-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    height: fit-content;
+    min-width: max-content;
+}
+.message-container:last-child {
+    margin: 0;
+}
+
+.message-box {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 20px;
+}
+.message-box:last-child {
+    margin-bottom: 0;
+}
+
+.message {
+    display: block;
+    height: fit-content;
+    width: fit-content;
+    margin-bottom: 10px;
+    padding: 8px 15px;
+    border-radius: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    cursor: default;
+}
+.message b {
+    font-family: "Roboto Bold", sans-serif;
+    font-weight: 500;
+}
+.message .mono {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 400;
+    font-size: 17;
+}
+.message .blue {
+    color: #0058A9;
+}
+.message:last-child {
+    margin: 0;
+}
+
+.message_request {
+    background-color: #EFFEDD;
+}
+.message_reply {
+    background-color: white;
+}
+

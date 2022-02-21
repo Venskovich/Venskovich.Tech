@@ -1,0 +1,42 @@
+.contact-link {
+    color: #181716;
+    text-decoration: none;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    box-shadow: 0 1px #181716;
+    transition: 0.25s;
+    /* CURSOR */
+    cursor: pointer;
+}
+.contact-link:hover {
+    box-shadow: 0 2px #181716;
+    color: #181716 !important;
+}
+
+.smile {
+    display: flex;
+    align-items: center;
+}
+.smile-emoji {
+    width: 70px;
+    height: 70px;
+    margin-left: 8px;
+    background: url(../images/other/smile-emoji.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media (max-width: 719px) { 
+    .smile-emoji {
+        width: 35px;
+        height: 35px;
+        margin-left: 4px;
+    }
+}
+
+@media (max-width: 500px) {
+    .picture-gallery {
+        margin-top: 30px;
+    }
+}

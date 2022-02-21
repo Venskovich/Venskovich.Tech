@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "Merriweather";
+    src: url(../fonts/Merriweather/Merriweather-Regular.ttf);
+}
+@font-face {
+    font-family: "Merriweather-Bold";
+    src: url(../fonts/Merriweather/Merriweather-Bold.ttf);
+}
+@font-face {
+    font-family: "Noto Sans";
+    src: url(../fonts/Noto_Sans/NotoSans-Regular.ttf);
+}
+@font-face {
+    font-family: "Noto Sans Bold";
+    src: url(../fonts/Noto_Sans/NotoSans-Bold.ttf);
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: "Roboto Bold";
+    src: url(../fonts/Roboto/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: "Roboto Mono";
+    src: url(../fonts/Roboto_Mono/RobotoMono-Regular.ttf);
+}
+@font-face {
+    font-family: "Roboto Mono Bold";
+    src: url(../fonts/Roboto_Mono/RobotoMono-Medium.ttf);
+}
+
+h1 {
+    font-size: 64px;
+    font-family: "Merriweather", serif;
+    font-weight: normal;
+    /* GEOMTRY */
+    margin-bottom: 45px;
+}
+h2 {
+    font-size: 32px;
+    font-family: "Merriweather", serif;
+    font-weight: normal;
+    /* GEOMTRY */
+    margin-bottom: 45px;
+}
+p {
+    font-size: 18px;
+    line-height: 28px;
+    font-family: "Noto Sans", sans-serif;
+    /* GEOMTRY */
+    margin-bottom: 30px;
+}
+p:last-child {
+    margin-bottom: 0;
+}
+span.grey {
+    color: #676767;
+}
+b {
+    font-family: "Noto Sans Bold", sans-serif;
+    font-weight: bold;
+}
+
+@media (max-width: 719px) {
+    h1 {
+        font-size: 32px;
+        font-family: "Merriweather-Bold", serif;
+        font-weight: bold;
+    }
+    h2 {
+        font-size: 20px;
+        line-height: 28px;
+        font-family: "Merriweather-Bold", serif;
+        font-weight: bold;
+    }
+}
+@media (max-width: 500px) {
+    h1 {
+        margin-bottom: 20px;
+    }
+    h2 {
+        margin-bottom: 20px;
+    }
+    p {
+        margin-bottom: 20px;
+    }
+}
+

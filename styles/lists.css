@@ -1,0 +1,12 @@
+.links-list li {
+    margin-bottom: 30px;
+}
+.links-list li:last-child {
+    margin-bottom: 0;
+}
+@media (max-width: 500px) {
+    .links-list li {
+        margin-bottom: 20px;
+    }
+}
+

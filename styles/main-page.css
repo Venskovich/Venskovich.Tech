@@ -1,0 +1,58 @@
+.main-page-header {
+    width: 100%;
+    box-sizing: border-box;
+    height: fit-content;
+    background: url(../images/background/bg-main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header__text {
+    color: white;
+}
+.header__button {
+    border: 1px solid white;
+    color: white;
+}
+.header__button:hover {
+    background-color: white;
+    color: #181716;
+}
+@media (max-width:500px) {
+    .main-page-header {
+        background: url(../images/background/bg-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+/* One content is available on PC, another - mobile only */
+.main-page__content-pc {
+    display: block;
+}
+.main-page__content-mobile {
+    display: none;
+}
+@media (max-width:500px) {
+    .main-page__content-pc {
+        display: none;
+    }
+    .main-page__content-mobile {
+        display: block;
+    }
+}
+
+.main-page-header__content-block {
+    padding-top: 115px;
+}
+
+.main-page-header__content-block {
+    padding-top: 115px;
+}
+@media (max-width:500px) {
+    .main-page-header__content-block {
+        padding: 90px 0 60px 0 !important;
+    }
+    .main-page__content-block {
+        padding-top: 35px !important;
+    }
+}
