@@ -5,6 +5,8 @@ The own website I used to publish different stuff:
 - Ideas - my own blog of different ideas I've got
 - Achivements - I wanted to save somehow the goals I've achieved 
 
+*Make sure to write '.html' at the end manually, because switches among page work well only on the host due to htaccess file
+
 ![image](https://user-images.githubusercontent.com/97799070/187078564-c1fdcf8a-d177-459f-8ecf-fd335b25a44b.png)
 
 ![image](https://user-images.githubusercontent.com/97799070/187078608-9d042944-2761-4e50-aaaf-b0e3c3054a9a.png)
